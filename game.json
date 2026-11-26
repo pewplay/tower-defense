@@ -1,0 +1,68 @@
+{
+  "$schema": "https://raw.githubusercontent.com/pewplay/pewplay/main/schema/game.schema.json",
+  "title": "Tower Defense",
+  "description": "Build and upgrade arrow, cannon, frost and sniper towers to stop 20 waves of enemies on three maps. Free strategy game in your browser.",
+  "about": "Tower Defense is a classic strategy game: enemies march along a winding path towards your base, and only your towers can stop them. Place towers on the grass beside the path, and they will fire automatically at anything in range. Every enemy you defeat earns gold to build more towers or upgrade the ones you have.\n\nThere are four towers to combine. Arrow towers are cheap and fire quickly, cannons deal splash damage to groups, frost towers slow enemies down and snipers hit hard from very far away. Each tower can be upgraded twice. Fast runners, tough grunts, armored tanks and a powerful boss every five waves test your defense in different ways.\n\nSurvive all twenty waves on the Meadow, Canyon or Spiral map, and use double speed when you are confident.",
+  "howToPlay": "Choose a tower and tap a grass tile to build it, then start the next wave. Towers shoot enemies in range automatically. Tap a tower to upgrade or sell it. Each enemy that reaches your base costs a life, and a boss costs five; survive all 20 waves with at least one life left to win.",
+  "controls": [
+    {
+      "input": "Click / Tap",
+      "action": "Choose a tower, build, select a tower"
+    },
+    {
+      "input": "1 – 4",
+      "action": "Choose a tower type"
+    },
+    {
+      "input": "Space / Enter",
+      "action": "Start the next wave"
+    },
+    {
+      "input": "U / S / F",
+      "action": "Upgrade / sell the selected tower, toggle speed"
+    },
+    {
+      "input": "Esc / P",
+      "action": "Pause"
+    }
+  ],
+  "tips": [
+    "Build near corners of the path: towers there can hit enemies for longer.",
+    "Pair frost towers with cannons so slowed groups take more splash damage.",
+    "Save some gold before every fifth wave to deal with the boss.",
+    "Upgrading a well-placed tower is often better than building a new one."
+  ],
+  "faq": [
+    {
+      "question": "Is Tower Defense free to play?",
+      "answer": "Yes. Tower Defense is free and runs in your browser, with no download or sign-up."
+    },
+    {
+      "question": "Can I play Tower Defense on a phone or tablet?",
+      "answer": "Yes. Tap to choose and place towers. On a phone held upright the map turns to fill the screen and the tower buttons sit at the bottom."
+    },
+    {
+      "question": "How many waves are there?",
+      "answer": "Twenty waves on each map, with a boss at waves 5, 10, 15 and 20. Your best score for each map is saved."
+    }
+  ],
+  "category": "Strategy",
+  "tags": [
+    "tower defense",
+    "strategy",
+    "towers",
+    "waves",
+    "defense"
+  ],
+  "author": "PewPlay",
+  "playMode": "SinglePlayer",
+  "orientation": "any",
+  "cover": "cover.png",
+  "screenshots": [
+    "screenshots/1.png",
+    "screenshots/2.png",
+    "screenshots/3.png"
+  ],
+  "added": "2026-11-26",
+  "draft": false
+}
